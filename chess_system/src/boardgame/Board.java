@@ -1,13 +1,9 @@
 package boardgame;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Board {
 	
 	private int rows;
 	private int columns;
-	
 	private Piece[][] pieces;
 	
 	public Board(int rows, int columns) {
@@ -44,7 +40,8 @@ public class Board {
 	}
 	
 	public void placePice(Piece piece, Position position) {
-		
+		pieces[position.getRow()][position.getColumn()] = piece;
+		piece.position = position;
 	}
 	
 	public Piece removePiece(Position position) {

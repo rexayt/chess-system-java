@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=S\:\\Documentos\\Cursos\\Java\\.git;
-GitRepositoriesView.GitDirectories.relative=S\:\\Documentos\\Cursos\\Java\\.git;
+GitRepositoriesView.GitDirectories=/home/luiz/Documentos/enviroments/chess-system-java/.git\:/home/luiz/Documentos/enviroments/chess-system-java/\\Documentos\\Cursos\\Java\\.git;\:/home/luiz/Documentos/enviroments/chess-system-java/S\:
+GitRepositoriesView.GitDirectories.relative=.git\:\\Documentos\\Cursos\\Java\\.git;\:S\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

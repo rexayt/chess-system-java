@@ -11,11 +11,9 @@ public class ChessPiece extends Piece{
 	
 	private Piece piece;
 	
-	public ChessPiece(Board board, Color color, int moveCount, Piece piece) {
+	public ChessPiece(Board board, Color color) {
 		super(board);
 		this.color = color;
-		this.moveCount = moveCount;
-		this.piece = piece;
 	}
 	
 	public ChessPosition getChessPosition() {
